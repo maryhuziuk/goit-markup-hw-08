@@ -1,0 +1,17 @@
+.logo {
+    padding:24px 0 24px 0;
+    margin-right: 93px;
+    display: flex;
+    
+    color: var(--primary-text-tittle-color);
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+    
+    &__web {
+      color: var(--accent-color);
+      font-family: Raleway, sans-serif;
+    }
+   
+  }
+  
