@@ -5,8 +5,8 @@
   padding: 40px;
   min-width: 450px;
   min-height: 609px;
-  @include desktop-max {
-    transform: translate(-50%, -70%) scale(1);
+  @include tablet {
+    transform: translate(-50%, -50%) scale(1);
   }
   @include desktop {
     transform: translate(-50%, -50%) scale(1);
@@ -20,7 +20,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  transform: translate(-50%, -80%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms var(--timing-functian);
 
   &__tittle {
