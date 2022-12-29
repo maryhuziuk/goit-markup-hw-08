@@ -1,61 +1,67 @@
 .contacts {
+  display: none;
+  // display: flex;
+  margin-left: auto;
+  @include tablet {
     display: flex;
+  }
+  @include desktop-max {
+    flex-direction: column;
     margin-left: auto;
-  
-  
-    color: var(--primary-text-tittle-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1, 14;
-    letter-spacing: 0.02em;
+  }
+  @include desktop {
+    display: flex;
+  }
 
+  color: var(--primary-text-tittle-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+
+  @include desktop {
     &__item:not(:last-child) {
       margin-right: 50px;
-    
     }
-    &-icons-email,
-    &-icons-number{
+  }
+  &-icons-email,
+  &-icons-number {
     @extend %flex-align;
     fill: currentColor;
     margin-right: 10px;
   }
-    
-  }
+}
 
-  .contacts__email{
-    display:inline-flex;
-    color: var(--text-tell-color);
-    text-decoration: none;
-    align-items: center;
-  
-    transition: color 250ms var(--timing-functian);
+.contacts__email {
+  display: inline-flex;
+  color: var(--text-tell-color);
+  text-decoration: none;
+  align-items: center;
 
-    &:hover,
-    &:focus {
+  transition: color 250ms var(--timing-functian);
+
+  &:hover,
+  &:focus {
     color: var(--accent-color);
   }
- 
-  }
-    
-  
-  .contacts-icons-email,
-  .contacts-icons-number{
-    @extend %flex-align;
-    fill: currentColor;
-    margin-right: 10px;
-  }
-  
-  
-  .contacts__number {
-    color: var(--text-tell-color);
-    text-decoration: none;
-    @extend %flex-align;
-    justify-content: center;
-    transition: color 250ms var(--timing-functian);
+}
 
-    &:hover,
-    &:focus {
-      color: var(--accent-color);
-    }
+.contacts-icons-email,
+.contacts-icons-number {
+  @extend %flex-align;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.contacts__number {
+  color: var(--text-tell-color);
+  text-decoration: none;
+  @extend %flex-align;
+
+  transition: color 250ms var(--timing-functian);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
   }
-  
+}

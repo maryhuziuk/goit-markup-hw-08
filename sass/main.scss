@@ -1,16 +1,19 @@
+@import './utils/variables';
 @import './utils/mixin';
+@import './utils/plaseholder';
 
 @import './utils/variables';
 @import './utils/reset';
 @import './utils/common';
 @import './utils/title';
 @import './utils/container';
-@import './utils/plaseholder';
+
 
 @import './components/header/page-header';
 @import './components/header/logo';
 @import './components/header/site-nav';
 @import './components/header/contacts';
+@import './components/header/modal-menu';
 
 @import './components/hero/hero';
 @import './components/hero/button-hero';

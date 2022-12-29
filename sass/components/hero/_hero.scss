@@ -1,74 +1,70 @@
 .hero {
-    background-color: var(--main-background-color);
-     max-width: 1600px;
-    height: 400px;
-    background-image: linear-gradient(
+  background-color: var(--main-background-color);
+  max-width: 1600px;
+  height: 400px;
+  background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../../../images/hero-img-mob.jpg);
-    @include retina{
-      background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../../../images/hero-img-mob-2x.jpg);
-    }
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto ;
-    padding: 118px 60px;
+  @include retina {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../../images/hero-img-mob-2x.jpg);
+  }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 118px 60px;
 
-    @include tablet{
-      padding: 118px 204px;
-      background-image: linear-gradient(
+  @include tablet {
+    padding: 118px 204px;
+    background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
       url(../../../images/hero-img-tablet.jpg);
-      @include retina{
-        background-image: linear-gradient(
+    @include retina {
+      background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
         url(../../../images/hero-img-tablet-2x.jpg);
-
-      }
     }
+  }
 
-
-    @include desktop{
-      padding-top: 200px ;
-      padding-bottom:200px ;
-      height: 600px;
-      background-image: linear-gradient(
+  @include desktop {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 600px;
+    background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
       url(../../../images/Img-bgr.jpg);
-      @include retina{
-        background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../../../images/Img-bgr-2x.jpg);
-
-      }
+    @include retina {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../../../images/Img-bgr-2x.jpg);
     }
-  
-    
+  }
+
   &__tittle {
     margin-bottom: 30px;
-  
+
     color: var(--background-maintittle-color);
     text-transform: uppercase;
     font-weight: 900;
@@ -77,18 +73,12 @@
     line-height: 1.36;
     letter-spacing: 0.06em;
 
-
-    
-    @include tablet{
+    @include tablet {
       font-size: 26px;
-
     }
-    
-       
-    @include desktop{
+
+    @include desktop {
       font-size: 44px;
     }
-
   }
-
 }

@@ -1,14 +1,12 @@
 .title {
-    margin-bottom: 30px;
-  
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    vertical-align: top; 
+  margin-bottom: 30px;
 
-    @include desktop{
-      margin-bottom: 50px;
-     
-    }
-   
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  vertical-align: top;
+
+  @include desktop {
+    margin-bottom: 50px;
   }
+}
