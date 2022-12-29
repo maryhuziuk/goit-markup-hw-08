@@ -7,14 +7,14 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../../../images/hero-img-mob.jpg);
+    url(./images/hero-img-mob.jpg);
   @include retina {
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../../images/hero-img-mob-2x.jpg);
+      url(./images/hero-img-mob-2x.jpg);
   }
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,14 +31,14 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../../images/hero-img-tablet.jpg);
+      url(./images/hero-img-tablet.jpg);
     @include retina {
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../../../images/hero-img-tablet-2x.jpg);
+        url(./images/hero-img-tablet-2x.jpg);
     }
   }
 
@@ -51,14 +51,14 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../../images/Img-bgr.jpg);
+      url(./images/Img-bgr.jpg);
     @include retina {
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../../../images/Img-bgr-2x.jpg);
+        url(./images/Img-bgr-2x.jpg);
     }
   }
 
