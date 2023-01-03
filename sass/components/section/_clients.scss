@@ -1,5 +1,6 @@
 .clients {
   display: flex;
+  
   @include desktop-max {
     flex-wrap: wrap;
   }
@@ -18,6 +19,15 @@
     border: 1px solid #afb1b8;
     border-radius: 4px;
     transition: border 250ms var(--timing-functian);
+    @include tel-max{
+      &:not(:last-child) {
+          margin-bottom: 30px;
+        }
+
+    }
+    
+    
+
 
     @include tel {
       width: calc((100% - 2 * 30px) / 2);

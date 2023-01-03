@@ -25,5 +25,7 @@
   padding-bottom: 60px;
   padding-top: 60px;
   background-color: var(--main-background-color);
-  // height: 252px;
+  @include desktop{
+    padding-bottom: 0;
+  }
 }

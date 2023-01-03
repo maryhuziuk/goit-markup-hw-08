@@ -36,6 +36,10 @@ button {
   cursor: pointer;
 }
 
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 @media screen and (min-width: 480px) {
   .section {
     padding-top: 60px;
@@ -355,7 +359,7 @@ img {
   margin-left: auto;
   color: var(--primary-text-tittle-color);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
 }
@@ -373,6 +377,7 @@ img {
 @media screen and (min-width: 1200px) {
   .contacts {
     display: flex;
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -594,6 +599,11 @@ img {
   padding-bottom: 60px;
   padding-top: 60px;
   background-color: var(--main-background-color);
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-bottom: 0;
+  }
 }
 
 .first-section {

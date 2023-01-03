@@ -1,6 +1,5 @@
 .contacts {
   display: none;
-  // display: flex;
   margin-left: auto;
   @include tablet {
     display: flex;
@@ -11,11 +10,12 @@
   }
   @include desktop {
     display: flex;
+    font-size: 14px;
   }
 
   color: var(--primary-text-tittle-color);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
 

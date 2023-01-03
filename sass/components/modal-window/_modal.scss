@@ -8,6 +8,8 @@
   min-height: 609px;
   @include tablet {
     transform: translate(-50%, -50%) scale(1);
+    width: 450px;
+
   }
   @include desktop {
     transform: translate(-50%, -50%) scale(1);
